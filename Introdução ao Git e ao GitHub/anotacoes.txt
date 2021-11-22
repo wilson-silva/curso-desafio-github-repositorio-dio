@@ -1,0 +1,85 @@
+*********************************************************************************
+* Navegação via command line interface e instalação
+- Comandos básicos para um bom desempenho no terminal
+	git é usada por linha de comando (CLI) e não (GUI)
+
+	Comandos basicos para navegar no terminal: 
+		windows                              Unix
+		---------------------------------------------------------                             
+		-> navega entre as pastas
+		   cd				     cd	   	
+		   cd .. (volta para pasta anterior)
+		---------------------------------------------------------
+		->limpar tela(cmd)
+		   cls				     clear(ctrl + l)
+		---------------------------------------------------------
+		-> listas as pastas
+		   dir				     ls 
+       		---------------------------------------------------------
+		-> Criar pasta(diretótio)
+		   mkdir minhapasta		     mkdir   
+		---------------------------------------------------------
+		-> criar arquivo	
+		   echo hello > hello.txt	     echo hello >hello.txt
+		---------------------------------------------------------
+		-> deleta
+		  del(arquivo)/rmdir(pasta)           rm -rf    
+		  ex: rmdir workspace /S /Q
+		---------------------------------------------------------
+***********************************************************************************	
+* Primeiros comandos com Git
+- Iniciando o Git e criando um commit
+	- git init(inicializa o git)
+	- git status
+        - git add . = move arquivo para a staging area
+	- git commit -m "descrição"
+
+Enviar projeto do repositorio local para o remoto
+	      -logar no github e dar um new repositório
+	      -copiar a url e seguir os passos abaixo:
+		git remote add origin https://github.com/wilson-silva/.git
+		git remote -v = lista as listas de repositorios remotos cadastrados
+		git status
+		git push origin main - O comando git push é usado para 
+		enviar conteúdo do repositório local para um repositório
+		remoto.
+
+--------------------------------------------------------------------------------
+****OBS: git pull origin main - para puxar alterações feito no repositorio remoto.
+--------------------------------------------------------------------------------	
+git clone enderecoProjeto //Caso o projeto não esteja na máquina local
+--------------------------------------------------------------------------------  	
+ git checkout -b main //transforma branch para o padrao main atualizada
+-------------------------------------------------------------------------------- 
+Caso de o erro "refusing to merge unrelated histories"
+
+git pull origin main --allow-unrelated-histories
+-------------------------------------------------------------------------------- 
+
+
+insert - cola o repositorio no bash
+
+
+
+ctrl + / = comenta varias linhas de codigo com //
+ctrl + shift + / = comenta com /*   */
+
+Alt + Ctrl + I = endentação
+
+
+//alterar nome da variavel
+rename = shift + F6, enter
+
+
+https://personapione.herokuapp.com/
+
+
+
+
+
+
+
+
+
+
+				
